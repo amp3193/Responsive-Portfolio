@@ -215,3 +215,101 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (min-width: 761px) and (max-width: 980px){
+
+  #masthead {
+    max-width: 100%;
+  }
+
+  nav {
+    padding-left: 40px;
+    padding-right: 40px; 
+  }
+  
+  .main-section {
+    padding-top: 5px;
+    margin: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 680px;
+  }
+
+  .work:nth-child(even) {
+    float: left;
+  }
+
+  .work {
+    clear: right;
+    width: calc(50% - 20px);
+  }
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 760px){
+  
+  nav {
+    padding-left: 40px;
+    padding-right: 40px; 
+  }
+
+  .main-section {
+    padding-top: 5px;
+    margin: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    width: calc(100% - 80px);
+  }
+
+  .work:nth-child(even) {
+    float: left;
+  }
+
+  .work {
+    clear: right;
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 640px){
+
+  #masthead {
+    position: static;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
+  #logo {
+    width: 100%;
+    display: block;
+    float: none;
+
+  }
+
+  nav {
+    float: none;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #main-container {
+    padding-top: 0px;
+  }
+
+  .main-section {
+    padding-top: 5px;
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
+
+  .work {
+    float: none;
+    width: 100%;
+  }
+}
